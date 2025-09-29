@@ -129,7 +129,7 @@ public class NumberTriangle {
                 }else{
                     for (int i = 0; i < acc.length; i++){
                         acc[i].setLeft(curRow[i]);
-                        acc[i].setRight(curRow[i]);
+                        acc[i].setRight(curRow[i + 1]);
                     }
                 }
                 acc = curRow;
